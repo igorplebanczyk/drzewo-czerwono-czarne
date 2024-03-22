@@ -51,7 +51,7 @@ class RBTree {
         if (removedNode != null)
             return removedNode.value;
         else
-            return -1; // Return -1 if key not found
+            return -1;
     }
 
     private Node remove(Node node, int key) {
@@ -100,7 +100,7 @@ class RBTree {
             else
                 return node.value;
         }
-        return -1; // Return -1 if key not found
+        return -1;
     }
 
     public int height() {
@@ -160,11 +160,9 @@ class RBTree {
         System.out.println("");
         System.out.println("Height of the tree: " + rbTree.height());
 
-        // Testing get method
         int keyToFind = 5;
         System.out.println("Value for key " + keyToFind + ": " + rbTree.get(keyToFind));
 
-        // Testing remove method
         int keyToRemove = 3;
         int removedValue = rbTree.remove(keyToRemove);
         System.out.println("Removed value for key " + keyToRemove + ": " + removedValue);
