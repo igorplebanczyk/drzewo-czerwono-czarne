@@ -1,5 +1,5 @@
 # drzewo-czerwono-czarne
 
-drzewo czerwono-czarne do szkoly
+Red-black tree for a school project.
 
-Igor Plebańczyk i Szymon Płoński
+Igor Plebańczyk & Szymon Płoński
